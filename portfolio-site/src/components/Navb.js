@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState, useRef,useEffect} from 'react';
+import { useLocation } from "react-router-dom";
 import styled from 'styled-components';
-import BurgerIcon from '@material-ui/icons/Reorder'
+import MenuIcon from '@material-ui/icons/Menu'
 import logo from '../img/logo.svg';
-// import {Navbar, Nav, Container} from 'react-bootstrap'
-//  import { Container} from 'react-bootstrap'
+
 const Navb = () => {
-    
+  
   const [showLinks, setShowLinks] = useState(false);
   return(
       <Navbar bg="light" variant="light">
@@ -13,11 +13,11 @@ const Navb = () => {
         <img src={logo} alt="logo"/>
         </LeftSide>
         <RightSide>
-        <BurgerButton onClick={() => setShowLinks(!showLinks)}><BurgerIcon/></BurgerButton>
+        <BurgerButton onClick={() => setShowLinks(!showLinks)}><MenuIcon className="bb"/></BurgerButton>
           <Links id={showLinks ? "hidden" : ""}>
             <a>Home</a>
-            <a>About</a>
-            <a>Projects</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
             <a>Contact</a>
           </Links>
         </RightSide>
@@ -38,6 +38,12 @@ export const Navbar = styled.div`
 `;
 
 export const BurgerButton = styled.button`
+  border: none;
+  background-color: Transparent;
+  .bb{
+    width: 90px;
+        height: 40px;
+  }
     
 `;
 export const LeftSide = styled.div`

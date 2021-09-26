@@ -1,14 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-//iamges
-import project_1 from "../img/project_1.PNG"
-import project_2 from "../img/project_2.PNG"
-import project_3 from "../img/project_33.PNG"
-import {Row, Col, Container} from 'react-bootstrap'
+import project_1 from "../img/project_1.PNG";
+import project_2 from "../img/project_2.PNG";
+import project_3 from "../img/project_33.PNG";
+import {Row, Col, Container} from 'react-bootstrap';
 
 const ProjectSection = () => {
     return(
-        <Project>
+        <Project id="projects">
             <Container fluid="xxl">
             <Row>
                 <Col>
@@ -74,9 +73,4 @@ export const Project = styled.div`
             }
         }
 `;
-
-
-
-
-
 export default ProjectSection;
