@@ -1,5 +1,4 @@
-import React, {useState, useRef,useEffect} from 'react';
-import { useLocation } from "react-router-dom";
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import MenuIcon from '@material-ui/icons/Menu'
 import logo from '../img/logo.svg';
@@ -18,7 +17,7 @@ const Navb = () => {
             <a>Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a>Contact</a>
+            {/* <a>Contact</a> */}
           </Links>
         </RightSide>
       </Navbar>
@@ -106,6 +105,7 @@ export const Links = styled.div`
     a{
       margin-left: 15px;
       cursor: pointer;
+      text-decoration: none;
     }
     @media only screen and (max-width: 750px) {
       a{
