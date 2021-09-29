@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import project_1 from "../img/project_1.PNG";
 import project_2 from "../img/project_2.PNG";
 import project_3 from "../img/project_33.PNG";
+import project_4 from "../img/project_4.PNG";
 import {Row, Col, Container} from 'react-bootstrap';
 
 const ProjectSection = () => {
@@ -36,7 +37,8 @@ const ProjectSection = () => {
                 </div>
                 </Col>
                 <Col>
-                <div class ="aa"><img src={project_1} alt="dd"/></div>
+                <div class ="aa">
+                    <a href= "https://laughing-mestorf-b0780d.netlify.app/"><img src={project_4} alt="dd"/></a></div>
                 </Col>
             </Row>
         </Container>
