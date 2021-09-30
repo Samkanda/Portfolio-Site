@@ -50,7 +50,7 @@ const MainText = styled.div`
     display: flex;
     text-align: center;
     h1{
-        padding-top: 8rem;
+        padding-top: 4rem;
         font-size: 2rem;
         color: white;
         justify-content: center;

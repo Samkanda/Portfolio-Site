@@ -72,6 +72,7 @@ export const Project = styled.div`
     @media only screen and (max-width: 650px) {
             img{
                 width:55vw;
+                min-height: 15vw;
             }
         }
 `;

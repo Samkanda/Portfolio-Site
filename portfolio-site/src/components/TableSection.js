@@ -108,6 +108,9 @@ export const TableContainer = styled.div`
     display: flex;
     padding: 0rem 10rem;
     justify-content:center;
+    @media only screen and (max-width: 650px) {
+            padding: 0rem 6rem;
+        }
 `;
 
 export const Table = styled.div`
