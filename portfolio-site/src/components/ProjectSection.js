@@ -50,7 +50,7 @@ const ProjectSection = () => {
                         </Card.Body>
                         <div class = "overlay">
                         <ListGroup className="list-group-flush">
-                        <ListGroupItem><h2>JS</h2><h2>SASS</h2><h2>UseHooks</h2><h2>HTML</h2></ListGroupItem>
+                        <ListGroupItem><h2>JS</h2><h2>SASS</h2><h2>Framer-motion</h2><h2>Bootstrap</h2></ListGroupItem>
                         </ListGroup>
                         </div>
                         <Card.Body>
@@ -70,7 +70,7 @@ const ProjectSection = () => {
                         </Card.Body>
                         <div class = "overlay">
                         <ListGroup className="list-group-flush">
-                        <ListGroupItem><h2>JS</h2><h2>SASS</h2><h2>UseHooks</h2><h2>HTML</h2></ListGroupItem>
+                        <ListGroupItem><h2>JS</h2><h2>Styled-components</h2><h2>UseHooks</h2><h2>Bootstrap</h2></ListGroupItem>
                         </ListGroup>
                         </div>
                         <Card.Body>
@@ -90,7 +90,7 @@ const ProjectSection = () => {
                         </Card.Body>
                         <div class = "overlay">
                         <ListGroup className="list-group-flush">
-                        <ListGroupItem><h2>JS</h2><h2>Redux</h2><h2>UseHooks</h2><h2>Styled Components</h2></ListGroupItem>
+                        <ListGroupItem><h2>JS</h2><h2>Redux</h2><h2>Bootstrap</h2><h2>Styled Components</h2></ListGroupItem>
                         </ListGroup>
                         </div>
                         <Card.Body>
