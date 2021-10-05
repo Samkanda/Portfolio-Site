@@ -42,7 +42,7 @@ const ContactContainer = styled.div`
     top: 50%;
     left: -9rem;
     transform: translateY(-50%);
-    z-index: 0;
+    z-index: 1;
     @media only screen and (min-width: 100em)
         {
             left: -14.5rem
