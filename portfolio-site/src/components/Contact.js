@@ -39,7 +39,6 @@ const Contact = () => {
 
 const ContactContainer = styled.div`
     position: fixed;
-    /* position: absolute; */
     top: 50%;
     left: -9rem;
     transform: translateY(-50%);
