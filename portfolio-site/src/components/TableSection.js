@@ -31,7 +31,7 @@ const TableSection = () => {
                     <span>
                     <img src={webpage} alt="dd"/>
                     <h1>Design/Other Skills</h1><br/>
-                    <p> I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                    <p> I value a simple content structure, clean design patterns, and thoughtful interactions.</p>
                     </span>
                 </MainText>
             </Col>
