@@ -64,7 +64,7 @@ const TableSection = () => {
             </Row>
             <Row>
             <Col>
-                <MainText1 class ="extra">
+                <MainText1 className ="extra">
                     <span>
                         <p className ="subtitle">Dev Tools:</p> 
                         <p>Bootstrap</p>
@@ -76,9 +76,9 @@ const TableSection = () => {
                 </MainText1>
             </Col>
             <Col>
-                <MainText1 class ="extra">
+                <MainText1 className ="extra">
                     <span>
-                        <p class ="subtitle">Back-End Tools:</p> 
+                        <p className ="subtitle">Back-End Tools:</p> 
                             <p>MongoDB</p>
                             <p>MySQL</p>
                             <p>PHP</p>
@@ -88,9 +88,9 @@ const TableSection = () => {
                 </MainText1>
             </Col>
             <Col>
-                <MainText1 class ="extra">
+                <MainText1 className ="extra">
                     <span>
-                        <p class ="subtitle">Related Skills:</p> 
+                        <p className ="subtitle">Related Skills:</p> 
                         <p>Bilingual</p>
                         <p>PHP</p>
                         <p>API Utilization and Development</p>

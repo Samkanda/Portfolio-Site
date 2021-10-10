@@ -11,7 +11,7 @@ const ProjectSection = () => {
         <Project id="projects">
             <Container fluid="xxl">
             <Row>
-                <Col class = "titleContent">
+                <Col className = "titleContent">
                 <span>
                 <h1>My Recent Work</h1><br/>
                 <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
@@ -20,7 +20,7 @@ const ProjectSection = () => {
             </Row>
            <Games>
                 <StyledGame>
-                    <div class ="image">
+                    <div className ="image">
                         <a href= "https://stoic-hamilton-6f1381.netlify.app/"><img src={project_1} alt="dd" /></a>
                         <Card.Body>
                         <Card.Title>Music Player</Card.Title>
@@ -28,7 +28,7 @@ const ProjectSection = () => {
                         A fully functional music player that runs a selction of songs.
                         </Card.Text>
                         </Card.Body>
-                        <div class = "overlay">
+                        <div className = "overlay">
                         <ListGroup className="list-group-flush">
                         <ListGroupItem><h2>JS</h2><h2>SASS</h2><h2>UseHooks</h2><h2>HTML</h2></ListGroupItem>
                         </ListGroup>
@@ -40,7 +40,7 @@ const ProjectSection = () => {
                     </div>
                 </StyledGame>
                 <StyledGame>
-                    <div class ="image">
+                    <div className ="image">
                         <a href= "https://suspicious-turing-e68bc4.netlify.app/"><img src={project_2} alt="dd" /></a>
                         <Card.Body>
                         <Card.Title>Photographer Site</Card.Title>
@@ -48,7 +48,7 @@ const ProjectSection = () => {
                         A photographer site project that uses motion, routes and styled components 
                         </Card.Text>
                         </Card.Body>
-                        <div class = "overlay">
+                        <div className = "overlay">
                         <ListGroup className="list-group-flush">
                         <ListGroupItem><h2>JS</h2><h2>SASS</h2><h2>Framer-motion</h2><h2>Bootstrap</h2></ListGroupItem>
                         </ListGroup>
@@ -60,7 +60,7 @@ const ProjectSection = () => {
                     </div>
                 </StyledGame>
                 <StyledGame>
-                    <div class ="image">
+                    <div className ="image">
                         <a href= "https://samkanda.github.io/Portfolio-Site/"><img src={project_3} alt="dd" /></a>
                         <Card.Body>
                         <Card.Title>Portfolio Site</Card.Title>
@@ -68,7 +68,7 @@ const ProjectSection = () => {
                             Navpreet's portfolio site that displays my main projects and ability to develop designs. 
                         </Card.Text>
                         </Card.Body>
-                        <div class = "overlay">
+                        <div className = "overlay">
                         <ListGroup className="list-group-flush">
                         <ListGroupItem><h2>JS</h2><h2>Styled-components</h2><h2>UseHooks</h2><h2>Bootstrap</h2></ListGroupItem>
                         </ListGroup>
@@ -80,7 +80,7 @@ const ProjectSection = () => {
                     </div>
                 </StyledGame>
                 <StyledGame>
-                    <div class ="image">
+                    <div className ="image">
                         <a href= "https://laughing-mestorf-b0780d.netlify.app/"><img src={project_4} alt="dd" /></a>
                         <Card.Body>
                         <Card.Title>IGN Clone</Card.Title>
@@ -88,7 +88,7 @@ const ProjectSection = () => {
                         A parital clone of the IGN games website, using a api to provide the user with information on new, popular and featured games. 
                         </Card.Text>
                         </Card.Body>
-                        <div class = "overlay">
+                        <div className = "overlay">
                         <ListGroup className="list-group-flush">
                         <ListGroupItem><h2>JS</h2><h2>Redux</h2><h2>Bootstrap</h2><h2>Styled Components</h2></ListGroupItem>
                         </ListGroup>

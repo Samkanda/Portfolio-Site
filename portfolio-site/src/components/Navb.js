@@ -14,10 +14,9 @@ const Navb = () => {
         <RightSide>
         <BurgerButton onClick={() => setShowLinks(!showLinks)}><MenuIcon className="bb"/></BurgerButton>
           <Links id={showLinks ? "hidden" : ""}>
-            <a>Home</a>
+            <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            {/* <a>Contact</a> */}
           </Links>
         </RightSide>
       </Navbar>
@@ -40,10 +39,9 @@ export const BurgerButton = styled.button`
   border: none;
   background-color: Transparent;
   .bb{
-    width: 90px;
-        height: 40px;
+      width: 90px;
+      height: 40px;
   }
-    
 `;
 export const LeftSide = styled.div`
     flex: 50%;
