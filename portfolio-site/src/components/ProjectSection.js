@@ -37,7 +37,7 @@ const ProjectSection = () => {
                         </div>
                         <Card.Body>
                         <Card.Link href="https://navpreet-nike.netlify.app/"><Button variant="outline-primary">Website</Button></Card.Link>
-                        <Card.Link href="https://github.com/Samkanda/react-music-app"><Button variant="outline-primary">Github</Button></Card.Link>
+                        <Card.Link href="https://github.com/Samkanda/e-commerce-site"><Button variant="outline-primary">Github</Button></Card.Link>
                     </Card.Body>
                     </div>
                 </StyledGame>
