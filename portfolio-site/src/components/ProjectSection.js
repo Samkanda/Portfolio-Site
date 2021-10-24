@@ -4,7 +4,9 @@ import project_1 from "../img/project_11.png";
 import project_2 from "../img/project_2.PNG";
 import project_3 from "../img/project_33.png";
 import project_4 from "../img/project_4.PNG";
+import project_5 from "../img/project_5.PNG";
 import {Row, Col, Container, Card, Button, ListGroup, ListGroupItem} from 'react-bootstrap';
+import {useSpring, animated, to, useGesture} from 'react-spring';
 
 const ProjectSection = () => {
     return(
@@ -19,6 +21,26 @@ const ProjectSection = () => {
                 </Col>
             </Row>
            <Games>
+           <StyledGame>
+                    <div className ="image">
+                        <a href= "https://navpreet-nike.netlify.app/"><img src={project_5} alt="dd" /></a>
+                        <Card.Body>
+                        <Card.Title>Nike Clone</Card.Title>
+                        <Card.Text>
+                        A nike clone that allows the user to add items to the cart, go through checkout and confirm the order. 
+                        </Card.Text>
+                        </Card.Body>
+                        <div className = "overlay">
+                        <ListGroup className="list-group-flush">
+                        <ListGroupItem><h2>React-Router</h2><h2>Stripe</h2><h2>UseHooks</h2><h2>Material UI</h2></ListGroupItem>
+                        </ListGroup>
+                        </div>
+                        <Card.Body>
+                        <Card.Link href="https://navpreet-nike.netlify.app/"><Button variant="outline-primary">Website</Button></Card.Link>
+                        <Card.Link href="https://github.com/Samkanda/react-music-app"><Button variant="outline-primary">Github</Button></Card.Link>
+                    </Card.Body>
+                    </div>
+                </StyledGame>
                 <StyledGame>
                     <div className ="image">
                         <a href= "https://stoic-hamilton-6f1381.netlify.app/"><img src={project_1} alt="dd" /></a>
