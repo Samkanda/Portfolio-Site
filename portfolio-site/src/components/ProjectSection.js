@@ -76,7 +76,7 @@ const ProjectSection = () => {
                         </ListGroup>
                         </div>
                         <Card.Body>
-                        <Card.Link href="https://suspicious-turing-e68bc4.netlify.app/"><Button variant="outline-primary">Website</Button></Card.Link>
+                        <Card.Link href="https://samkanda.github.io/pink-picture/"><Button variant="outline-primary">Website</Button></Card.Link>
                         <Card.Link href="https://github.com/Samkanda/client-site"><Button variant="outline-primary">Github</Button></Card.Link>
                     </Card.Body>
                     </div>
