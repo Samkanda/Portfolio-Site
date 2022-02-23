@@ -63,7 +63,7 @@ const ProjectSection = () => {
                 </StyledGame>
                 <StyledGame>
                     <div className ="image">
-                        <a href= "https://suspicious-turing-e68bc4.netlify.app/"><img src={project_2} alt="dd" /></a>
+                        <a href= "https://samkanda.github.io/pink-picture/"><img src={project_2} alt="dd" /></a>
                         <Card.Body>
                         <Card.Title>Photographer Site</Card.Title>
                         <Card.Text>
