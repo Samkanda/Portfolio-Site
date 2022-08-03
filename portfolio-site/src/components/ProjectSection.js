@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import project_1 from "../img/project_1.PNG";
+import project_1 from "../img/project_11.png";
 import project_2 from "../img/project_2.PNG";
-import project_3 from "../img/project_33.PNG";
+import project_3 from "../img/project_33.png";
 import project_4 from "../img/project_4.PNG";
 import project_5 from "../img/playline.png";
 
@@ -131,6 +131,46 @@ const ProjectSection = () => {
     )
 }
 
+
+export const Games = styled.div`
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-column-gap: 3rem;
+    grid-row-gap: 5rem;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+`;
+
+const StyledGame = styled.div`
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    cursor: pointer;
+    max-width: 25rem;
+    object-fit: cover;
+    .github-icon{
+            padding-top: 1rem;
+            width: 3rem;
+            color: blue;
+        }
+    h2{
+        font-size: 1rem;
+        background-color: grey;
+        margin-right: .7rem;
+        color: whitesmoke;
+        padding: .4rem;
+        border-radius: .5rem;
+        display: inline-block;
+    }
+    img{
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+`;
 export const Project = styled.div`
     @media(max-width: 900px){min-height: 80vw; }
     @media(max-width: 500px){padding: 2rem 1rem; }

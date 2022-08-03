@@ -14,10 +14,9 @@ const Navb = () => {
         <RightSide>
         <BurgerButton onClick={() => setShowLinks(!showLinks)}><MenuIcon className="bb"/></BurgerButton>
           <Links id={showLinks ? "hidden" : ""}>
-            <a>Home</a>
+            <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            {/* <a>Contact</a> */}
           </Links>
         </RightSide>
       </Navbar>

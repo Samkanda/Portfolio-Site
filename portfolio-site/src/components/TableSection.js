@@ -33,7 +33,7 @@ const TableSection = () => {
                     <span>
                     <img src={webpage} alt="dd"/>
                     <h1>Design/Other Skills</h1><br/>
-                    <p> I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                    <p> I value a simple content structure, clean design patterns, and thoughtful interactions.</p>
                     </span>
                 </MainText>
             </Col>
@@ -66,7 +66,7 @@ const TableSection = () => {
             </Row>
             <Row>
             <Col>
-                <MainText1 class ="extra">
+                <MainText1 className ="extra">
                     <span>
                         <p className ="subtitle">Dev Tools:</p> 
                         <p>Bootstrap</p>
@@ -80,7 +80,7 @@ const TableSection = () => {
             <Col style={{borderLeft: "1px solid #E6ECF8"}}>
                 <MainText1 class ="extra">
                     <span>
-                        <p class ="subtitle">Back-End Tools:</p> 
+                        <p className ="subtitle">Back-End Tools:</p> 
                             <p>MongoDB</p>
                             <p>MySQL</p>
                             <p>PHP</p>
@@ -92,7 +92,7 @@ const TableSection = () => {
             <Col style={{borderLeft: "1px solid #E6ECF8"}}>
                 <MainText1 class ="extra">
                     <span>
-                        <p class ="subtitle">Related Skills:</p> 
+                        <p className ="subtitle">Related Skills:</p> 
                         <p>Bilingual</p>
                         <p>PHP</p>
                         <p>API Utilization and Development</p>

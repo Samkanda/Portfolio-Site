@@ -22,7 +22,7 @@ const AboutSection = () => {
                 <Col xs={12}>
                     <MainText>
                         <p>
-                            Since beginning my journey years ago, I've went to College & University, worked on starups, 
+                            Since beginning my journey years ago, I've went to College & University, worked on startups, 
                             and developed a series of projects to keep improving my skills. I'm quietly confident, naturally curious, 
                             and perpetually working on improving my chops one design problem at a time.
                         </p>
