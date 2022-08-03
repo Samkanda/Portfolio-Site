@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import project_1 from "../img/project_11.png";
 import project_2 from "../img/project_2.PNG";
-import project_3 from "../img/project_33.png";
+import project_3 from "../img/project_3.PNG";
 import project_4 from "../img/project_4.PNG";
 import project_5 from "../img/playline.png";
 
@@ -101,7 +101,7 @@ const ProjectSection = () => {
                 <Col>
                 
                 <div class ="aa">
-                    <a href= "https://google.ca"><img src={project_3} alt="dd" /></a>
+                    <a href= "https://samkanda.github.io/Portfolio-Site/"><img src={project_3} alt="dd" /></a>
                 </div>
                 <div className='description'>
                 <h3 class="project-card__title">Porfolio </h3>
