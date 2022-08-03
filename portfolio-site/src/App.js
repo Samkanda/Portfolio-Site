@@ -5,6 +5,8 @@ import MainSection from './components/MainSection';
 import AboutSection from './components/AboutSection';
 import TableSection from './components/TableSection';
 import ProjectSection from './components/ProjectSection';
+import Footer from './components/Footer'
+import "./App.css"
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,7 @@ function App() {
       <AboutSection/>
       <TableSection/>
       <ProjectSection/>
+      <Footer/>
     </div>
   );
 }

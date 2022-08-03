@@ -9,7 +9,7 @@ const Navb = () => {
   return(
       <Navbar bg="light" variant="light">
         <LeftSide>
-        <img src={logo} alt="logo"/>
+        <h1>NK</h1>
         </LeftSide>
         <RightSide>
         <BurgerButton onClick={() => setShowLinks(!showLinks)}><MenuIcon className="bb"/></BurgerButton>
@@ -25,14 +25,21 @@ const Navb = () => {
 };
 
 export const Navbar = styled.div`
-    background-color: white;
+    display: flex;
     padding-top:1rem;
     width: 100%;
     height: 80px;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    img{
-      width:3.5rem;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+    @media(max-width: 600px){ padding: 1.5rem 1rem;}
+    h1{
+      font-family: 'Rubik Wet Paint', cursive;
+      color:#7510F7;
+      padding-left: 20px;
+      font-size: 3.2rem;
+      margin: 0;
     }
 `;
 
@@ -41,28 +48,16 @@ export const BurgerButton = styled.button`
   background-color: Transparent;
   .bb{
     width: 90px;
-        height: 40px;
+    height: 40px;
   }
-    
 `;
 export const LeftSide = styled.div`
-    flex: 50%;
-    img
-    {
-      margin:1rem;
-      margin-left:15vw;}
       @media only screen and (max-width: 650px) {
-        img{
-          margin-left:1vw;
-        }
-       
+        h1 {font-size: 2rem;} 
       }
 `;
 export const RightSide = styled.div`
-    flex: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     button{
       display: none;
     }
@@ -99,7 +94,6 @@ export const RightSide = styled.div`
 `;
 export const Links = styled.div`
     max-height: 80px;
-    text-decoration:none;
     color: #7510F7;
     font-size: 25px;
     a{

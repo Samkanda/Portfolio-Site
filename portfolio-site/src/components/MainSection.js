@@ -27,13 +27,25 @@ const MainSection = () => {
                     <MainText>
                         <img src={avatar} alt="dd"/>
                     </MainText>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <MainText1>
-                        <img src={computer} alt="dd"/>
-                    </MainText1>
+                    <div class="loader">
+
+  <div class="drops">
+    <div class="drop1"></div>
+    <div class="drop2"></div>  
+  </div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="liquid">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="liquid" />
+    </filter>
+  </defs>
+</svg>
+                        {/* <div id="container">
+                            <p class="text">DROP IN</p>
+                        <div class="underDrop"></div>
+                    </div> */}
                 </Col>
             </Row>
             </Container>
@@ -50,6 +62,9 @@ const MainText = styled.div`
         padding-top: 5.5rem;
         font-size: 3rem;
         justify-content: center;
+        @media(max-width: 600px){
+            font-size: 1.5rem;
+        }
         
     }
     h4{
@@ -60,10 +75,13 @@ const MainText = styled.div`
     }
 `
 export const About = styled.div`
-    min-height: 90vh;
+    min-height: 48rem;
     display: flex;
     padding: 0rem 10rem;
     color: black;
+    @media(max-width:600px){
+        padding: 0rem 3rem;
+    }
     
 `;
 

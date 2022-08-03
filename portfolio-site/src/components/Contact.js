@@ -28,7 +28,7 @@ const Contact = () => {
             </li>
 
             <li className="contact__item">
-                <Image3 href="https://drive.google.com/file/d/1TtKGIko1N8tcQqzIPt4Ju2XQAMTeFVa6/view?usp=sharing" >
+                <Image3 href="https://docs.google.com/document/d/1TtKGIko1N8tcQqzIPt4Ju2XQAMTeFVa6/edit?usp=sharing&ouid=108624646017462070435&rtpof=true&sd=true" >
                     <Label className="contact__label">Resume</Label> <FontAwesomeIcon icon={faPortrait} />
                 </Image3>
             </li>
@@ -39,15 +39,15 @@ const Contact = () => {
 
 const ContactContainer = styled.div`
     position: fixed;
-    /* position: absolute; */
     top: 50%;
     left: -9rem;
     transform: translateY(-50%);
-    z-index: 0;
+    z-index: 10;
     @media only screen and (min-width: 100em)
         {
             left: -14.5rem
         }
+    @media(max-width: 750px){display: none}
        
 `
 
@@ -66,7 +66,7 @@ const Image = styled.a`
     text-decoration: none;
     @media only screen and (max-width: 31.25em)
     {
-        padding: 1rem;
+        padding: .5rem;
     }
     @media only screen and (min-width: 100em)
     {
