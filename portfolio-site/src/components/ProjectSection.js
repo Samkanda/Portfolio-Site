@@ -33,11 +33,10 @@ const ProjectSection = () => {
                 </p>
                 <p class="project-card__stack">Used stack:</p>
                 <ul class="tags">
-                    <li>html5</li>
-                    <li>css3</li>
-                    <li>JavaScript</li>
-                    <li>bower</li>
-                    <li>grunt</li>
+                    <li>React</li>
+                    <li>SASS</li>
+                    <li>Bootstrap</li>
+                    <li>Redux</li>
                 </ul>
                 <a href="https://app.playline.xyz/lobby" class="project-card__link">playline.xyz</a>
                 <p style={{marginTop: "10px", color: "red", marginBottom: "0"}}class="project-card__link">Private Company Infomrmation</p>
@@ -57,11 +56,10 @@ const ProjectSection = () => {
                 </p>
                 <p class="project-card__stack">Used stack:</p>
                 <ul class="tags">
-                    <li>html5</li>
-                    <li>css3</li>
-                    <li>JavaScript</li>
-                    <li>bower</li>
-                    <li>grunt</li>
+                    <li>Html5</li>
+                    <li>Sass</li>
+                    <li>React</li>
+                    <li>UseHooks</li>
                 </ul>
                 <div className='link-container'>
                 <a href="https://stoic-hamilton-6f1381.netlify.app/" class="project-card__link">www.MusicPlayer.com</a>
@@ -83,11 +81,10 @@ const ProjectSection = () => {
                 </p>
                 <p class="project-card__stack">Used stack:</p>
                 <ul class="tags">
-                    <li>html5</li>
-                    <li>css3</li>
+                    <li>React</li>
+                    <li>Material UI</li>
                     <li>JavaScript</li>
-                    <li>bower</li>
-                    <li>grunt</li>
+                    <li>Styled Components</li>
                 </ul>
                 <div className='link-container'>
                 <a href="https://samkanda.github.io/pink-picture/" class="project-card__link">www.PinkPicture.com</a>
@@ -110,11 +107,9 @@ const ProjectSection = () => {
                 </p>
                 <p class="project-card__stack">Used stack:</p>
                 <ul class="tags">
-                    <li>html5</li>
-                    <li>css3</li>
-                    <li>JavaScript</li>
-                    <li>bower</li>
-                    <li>grunt</li>
+                    <li>React-Spring</li>
+                    <li>Bootstrap</li>
+                    <li>Styled Components</li>
                 </ul>
                 <div className='link-container'>
                 <a href="https://samkanda.github.io/Portfolio-Site/" class="project-card__link">www.Portfolio.com</a>
@@ -272,7 +267,7 @@ export const Project = styled.div`
         @media(max-width: 950px){
         flex-direction: column;}
     }
-    .tags{list-style: none; display: flex; padding: 0}
+    .tags{list-style: none; display: flex; padding: 0; flex-wrap: wrap;}
 
     .tags li {
     display: inline-block;
@@ -304,7 +299,7 @@ export const Project = styled.div`
     }
     img{
         width: 22rem;
-        min-height: 18rem;
+        min-height: 16rem;
         @media(max-width: 430px){width: 20rem;
     min-height: 16rem;}
     }

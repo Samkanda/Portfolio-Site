@@ -183,7 +183,7 @@ export const TableContainer = styled.div`
     padding: 0rem 10rem;
     justify-content:center;
     .row {padding: 0; margin: 0;}
-    .col{padding: 0; margin: 0;}
+    .col{padding: 0 7px; margin: 0;}
     @media(max-width: 1000px){    
         padding: 0rem 5rem;
 }

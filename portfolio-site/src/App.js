@@ -7,6 +7,7 @@ import TableSection from './components/TableSection';
 import ProjectSection from './components/ProjectSection';
 import Footer from './components/Footer'
 import "./App.css"
+import ContactForm from './components/ContactForm';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <TableSection/>
       <ProjectSection/>
       <Footer/>
+      
     </div>
   );
 }

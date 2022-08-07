@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components';
+import ContactForm from './ContactForm';
 
 const Footer = () => {
+    
     return (
         <FooterContainer className="footer">
             <ContactContainer>
@@ -11,7 +13,7 @@ const Footer = () => {
                 <ContactDescription> 
                     Interested in working together? We should queue up a time to chat. I’ll buy the coffee.
                 </ContactDescription>
-                <button>Contact Me</button>
+                <ContactForm/>
             </ContactContainer>
             <FooterItems>
             <div className="footer__item">
@@ -56,7 +58,7 @@ export const ContactContainer = styled.footer`
     min-height: 175px;
     width: 80%;
     background-color: #141C3A;
-    padding: 0rem 5rem;
+    padding: 0rem 2rem;
     color: white;
     align-items: center;
     justify-content: space-around;
@@ -74,7 +76,7 @@ export const ContactContainer = styled.footer`
     }
 `;
 export const ContactDescription = styled.div`
-    max-width: 312px;
+    max-width: 302px;
     font-weight: 600;
     text-align: center;
 `
