@@ -77,7 +77,7 @@ const ProjectSection = () => {
                 <div className='description'>
                 <h3 class="project-card__title">Photographer Site</h3>
                 <p class="project-card__description">
-                    Playline: A betting site developed by myself and a backend specialist. 
+                    Pink Picture, a mock photography site made using modern coding practices. 
                 </p>
                 <p class="project-card__stack">Used stack:</p>
                 <ul class="tags">
@@ -103,7 +103,7 @@ const ProjectSection = () => {
                 <div className='description'>
                 <h3 class="project-card__title">Portfolio </h3>
                 <p class="project-card__description">
-                    Playline: A betting site developed by myself and a backend specialist. 
+                    The Portfolio code that is being used to create this site. 
                 </p>
                 <p class="project-card__stack">Used stack:</p>
                 <ul class="tags">
