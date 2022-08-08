@@ -12,8 +12,8 @@ const ProjectSection = () => {
     return(
         <Project id="projects">
             <Container fluid="xxl">
-            <Row style={{border: "none", display: "flex", justifyContent: "center"}}>
-                <Col className='titleCo' style={{maxWidth:" 1031px"}}>
+            <Row className='titleRow'>
+                <Col className='titleCo'>
                 <span className='project-title-container'>
                 <h1>My Recent Work</h1>
                 <div>Here are a few design projects I've worked on recently. Want to see more? Email me.</div>
@@ -52,7 +52,7 @@ const ProjectSection = () => {
                 <div className='description'>
                 <h3 class="project-card__title">Music Player </h3>
                 <p class="project-card__description">
-                    Playline: A betting site developed by myself and a backend specialist. 
+                    A custom music player that plays a small variety of songs. 
                 </p>
                 <p class="project-card__stack">Used stack:</p>
                 <ul class="tags">
@@ -101,7 +101,7 @@ const ProjectSection = () => {
                     <a href= "https://samkanda.github.io/Portfolio-Site/"><img src={project_3} alt="dd" /></a>
                 </div>
                 <div className='description'>
-                <h3 class="project-card__title">Porfolio </h3>
+                <h3 class="project-card__title">Portfolio </h3>
                 <p class="project-card__description">
                     Playline: A betting site developed by myself and a backend specialist. 
                 </p>
@@ -167,8 +167,9 @@ const StyledGame = styled.div`
     }
 `;
 export const Project = styled.div`
-    @media(max-width: 900px){min-height: 80vw; }
-    @media(max-width: 500px){padding: 2rem 1rem; }
+    @media(max-width: 900px){min-height: 90vw; }
+    @media(max-width: 1200px){padding: 2rem 3rem 5rem 3rem}
+    @media(max-width: 500px){padding: 2rem 0rem; }
     min-height: 48rem;
     display: flex;
     padding: 2rem 4rem;
@@ -177,7 +178,27 @@ export const Project = styled.div`
     background-color: #F3F3F3;
     text-align: center;
     line-height: 1.5;
+    .container-xxl{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    @media(max-width: 950px){width: 100%;}
+    }
+    .titleRow{
+        border: none;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 100%;
+        max-width: 59rem;
+    }
+    .project-body{
+        padding: 0 3rem;
+        @media(max-width: 500px){padding:  0;}
     .row{
+        width: 100%;
         border: 1px solid #9299b33d;
         margin-bottom: 30px;
         &:hover{
@@ -185,6 +206,7 @@ export const Project = styled.div`
             transition: 400ms;
             }
     }
+}
     .project-card__title{
         display: flex; 
         font-family: 'Roboto Mono', monospace;
@@ -195,6 +217,15 @@ export const Project = styled.div`
         font-weight: 700;
         color: #555;
         text-align: left;
+    }
+    .titleCo{
+        display: flex;
+        justify-content: start;
+        margin-bottom: 20px;
+        div , h1{
+            justify-content: center;
+            justify-content: flex-start;
+        }
     }
     .project-card__stack{
         display: flex; 
@@ -213,6 +244,7 @@ export const Project = styled.div`
         font-weight: 400;
         color: #555;
         text-align: initial;
+       
     }
     .project-card__link{
         font-family: 'Roboto Mono',monospace;
@@ -241,6 +273,8 @@ export const Project = styled.div`
         display: flex; 
         flex-direction: column; 
         align-items: center; 
+        width: 94vw;
+        max-width: 65rem;
         .row{
             height: 21rem;
             @media(max-width: 950px){
@@ -256,16 +290,17 @@ export const Project = styled.div`
     }
     .description{
         padding: 3rem 3rem 1rem 2rem; 
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        @media(max-width: 600px){padding: 3rem 1rem 1rem 2rem;}
+
+        @media(max-width: 600px){padding: 3rem 1rem 1rem 2rem;     width: unset;}
     }
     .col{
         padding: 0;
         @media(max-width: 950px){
-        flex-direction: column;}
+        flex-direction: column;
+    }
     }
     .tags{list-style: none; display: flex; padding: 0; flex-wrap: wrap;}
 

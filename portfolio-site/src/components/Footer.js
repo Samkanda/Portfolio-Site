@@ -29,7 +29,7 @@ const Footer = () => {
 }
 
 export const FooterContainer = styled.footer`
-    min-height: 60vh;
+    min-height: 25rem;
     background-color: #7510F7;
     display: flex;
     justify-content: center;
@@ -50,9 +50,6 @@ export const ContactContainer = styled.footer`
         padding: 10px;
         height: 330px;
         margin-top: -25px;
-    }
-    @media(max-width: 900px){
-        padding: 0rem 0rem;
     }
     margin-top: -85px;
     min-height: 175px;
@@ -76,19 +73,23 @@ export const ContactContainer = styled.footer`
     }
 `;
 export const ContactDescription = styled.div`
-    max-width: 302px;
     font-weight: 600;
     text-align: center;
+    padding: 0 2rem;
 `
 export const FooterItems = styled.div`
+    position: relative;
     margin-top: 100px;
     font-weight: 700;
     font-size: 21px;
     text-align: center;
     text-decoration: unset;
+    @media(max-width: 800px) {
+        margin-top: 310px;
+    }
     @media(max-width: 600px) {
         margin-top: 312px;
-        font-size: 14px;
+        font-size: 16px;
     }
 `
 export default Footer

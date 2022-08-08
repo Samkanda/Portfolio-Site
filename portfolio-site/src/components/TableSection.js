@@ -43,7 +43,7 @@ const TableSection = () => {
                 <MainText>
                     <span>
                         <p className ="subtitle">Programming Languages I know:</p> 
-                        <p className="subtitleContent">HTML, NodeJS,  React, JS, CSS, Sass, jQuery</p>
+                        <p className="subtitleContent">HTML, CSS, JS, React, Jquery</p>
                     </span>
                 </MainText>
             </Col>
@@ -51,7 +51,7 @@ const TableSection = () => {
                 <MainText>
                     <span>
                         <p className ="subtitle">Programming Languages I know:</p> 
-                        <p className="subtitleContent">HTML, React, JS, CSS, Sass, PHP</p>
+                        <p className="subtitleContent">Python, NodeJS, JS, SQL, PHP, React Native</p>
                     </span>
                 </MainText>
             </Col>
@@ -83,7 +83,7 @@ const TableSection = () => {
                         <p className ="subtitle">Back-End Tools:</p> 
                             <p>MongoDB</p>
                             <p>MySQL</p>
-                            <p>PHP</p>
+                            <p>Git</p>
                             <p>API Utilization and Development</p>
                             <p>Deployment and Hosting</p>
                     </span>
@@ -94,9 +94,9 @@ const TableSection = () => {
                     <span>
                         <p className ="subtitle">Related Skills:</p> 
                         <p>Bilingual</p>
-                        <p>PHP</p>
-                        <p>API Utilization and Development</p>
-                        <p>CPR certified</p>
+                        <p>Photoshop</p>
+                        <p>Research Anaylsis</p>
+                        <p>Qualitative and Quantitative Research</p>
                     </span>
                 </MainText1>
             </Col>
@@ -114,8 +114,8 @@ const TableSection = () => {
                 </MainText2>
                 <MainText>
                     <span>
-                        <p className ="subtitle">Things I enjoy designing:</p> 
-                        <p className="subtitleContent">UX, UI, Web, Mobile, Apps</p>
+                        <p className ="subtitle">Programming Languages I know:</p> 
+                        <p className="subtitleContent">HTML, CSS, JS, React, Jquery</p>
                     </span>
                 </MainText>
                 <MainText1 class ="extra">
@@ -123,7 +123,6 @@ const TableSection = () => {
                         <p className ="subtitle">Dev Tools:</p> 
                         <p>Bootstrap</p>
                         <p>Visual Studio Code</p>
-                        <p>Github</p>
                         <p>MaterialUI</p>
                         <p>Chrome Dev Tools</p>
                     </span>
@@ -140,7 +139,7 @@ const TableSection = () => {
                 <MainText>
                     <span>
                         <p className ="subtitle">Programming Languages I know:</p> 
-                        <p className="subtitleContent">HTML, NodeJS,  React, JS, CSS, Sass, jQuery</p>
+                        <p className="subtitleContent">Python, NodeJS, JS, SQL, PHP, React Native</p>
                     </span>
                 </MainText>
                 <MainText1 class ="extra">
@@ -148,7 +147,7 @@ const TableSection = () => {
                         <p class ="subtitle">Back-End Tools:</p> 
                             <p>MongoDB</p>
                             <p>MySQL</p>
-                            <p>PHP</p>
+                            <p>Git</p>
                             <p>API Utilization and Development</p>
                             <p>Deployment and Hosting</p>
                     </span>
@@ -160,15 +159,17 @@ const TableSection = () => {
                     <img src={webpage} alt="dd"/>
                     <h1>Design/Other Skills</h1><br/>
                     <p> I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                    <p className ="subtitle">Things I enjoy designing:</p> 
+                    <p className="subtitleContent">UX, UI, Web, Mobile, Apps</p>
                     </span>
                 </MainText>
                 <MainText1 class ="extra" style={{borderBottom: "none"}}>
                     <span>
                         <p class ="subtitle">Related Skills:</p> 
                         <p>Bilingual</p>
-                        <p>PHP</p>
-                        <p>API Utilization and Development</p>
-                        <p>CPR certified</p>
+                        <p>Photoshop</p>
+                        <p>Research Anaylsis</p>
+                        <p>Qualitative and Quantitative Research</p>
                     </span>
                 </MainText1>
                 </Row>

@@ -202,7 +202,10 @@
   margin-bottom: 430px;
   }
 }
-
+.btn-primary:hover{
+  background-color: #7510f7;
+  border-color: #7510f7;
+}
 
 @keyframes ripple {
   0% {

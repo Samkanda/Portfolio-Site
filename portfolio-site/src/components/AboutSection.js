@@ -22,9 +22,9 @@ const AboutSection = () => {
                 <Col xs={12}>
                     <MainText>
                         <p>
-                            Since beginning my journey years ago, I've went to College & University, worked on startups, 
-                            and developed a series of projects to keep improving my skills. I'm quietly confident, naturally curious, 
-                            and perpetually working on improving my chops one design problem at a time.
+                        I’m a professional web developer, with a strong educational background and experience.
+                        My latest being Playline, a sports betting site.  
+                        I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
                         </p>
                     </MainText>
                     
