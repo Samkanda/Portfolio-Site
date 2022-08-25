@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Site/static/css/main.a3ad4289.chunk.css",
-    "main.js": "/Portfolio-Site/static/js/main.6ca2e333.chunk.js",
-    "main.js.map": "/Portfolio-Site/static/js/main.6ca2e333.chunk.js.map",
+    "main.js": "/Portfolio-Site/static/js/main.db5b56ca.chunk.js",
+    "main.js.map": "/Portfolio-Site/static/js/main.db5b56ca.chunk.js.map",
     "runtime-main.js": "/Portfolio-Site/static/js/runtime-main.d35a2f3a.js",
     "runtime-main.js.map": "/Portfolio-Site/static/js/runtime-main.d35a2f3a.js.map",
     "static/css/2.af34670d.chunk.css": "/Portfolio-Site/static/css/2.af34670d.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.af34670d.chunk.css.map": "/Portfolio-Site/static/css/2.af34670d.chunk.css.map",
     "static/css/main.a3ad4289.chunk.css.map": "/Portfolio-Site/static/css/main.a3ad4289.chunk.css.map",
     "static/js/2.af1b21d1.chunk.js.LICENSE.txt": "/Portfolio-Site/static/js/2.af1b21d1.chunk.js.LICENSE.txt",
+    "static/media/IGN.b5c89ce2.PNG": "/Portfolio-Site/static/media/IGN.b5c89ce2.PNG",
     "static/media/avatar_3.0317ff18.svg": "/Portfolio-Site/static/media/avatar_3.0317ff18.svg",
     "static/media/book.5840c82a.svg": "/Portfolio-Site/static/media/book.5840c82a.svg",
     "static/media/computer.a3cfd987.svg": "/Portfolio-Site/static/media/computer.a3cfd987.svg",
@@ -29,6 +30,6 @@
     "static/css/2.af34670d.chunk.css",
     "static/js/2.af1b21d1.chunk.js",
     "static/css/main.a3ad4289.chunk.css",
-    "static/js/main.6ca2e333.chunk.js"
+    "static/js/main.db5b56ca.chunk.js"
   ]
 }
