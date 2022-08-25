@@ -5,6 +5,8 @@ import project_2 from "../img/project_2.PNG";
 import project_3 from "../img/project_3.PNG";
 import project_4 from "../img/project_4.PNG";
 import project_5 from "../img/playline.png";
+import IGN from "../img/IGN.PNG";
+
 
 import {Row, Col, Container} from 'react-bootstrap';
 
@@ -40,6 +42,29 @@ const ProjectSection = () => {
                 </ul>
                 <a href="https://app.playline.xyz/lobby" class="project-card__link">playline.xyz</a>
                 <p style={{marginTop: "10px", color: "red", marginBottom: "0"}}class="project-card__link">Private Company Infomrmation</p>
+                </div>
+            </Col>
+            </Row>
+            <Row >
+            <Col>
+                <div class ="aa">
+                    <a href= "https://samkanda.github.io/Mini-IGN-Clone/"><img src={IGN} alt="dd" /></a>
+                </div>
+                <div className='description'>
+                <h3 class="project-card__title">Mini IGN Clone </h3>
+                <p class="project-card__description">
+                    IGN Clone: Using a game API to retrieve upcoming game information 
+                </p>
+                <p class="project-card__stack">Used stack:</p>
+                <ul class="tags">
+                    <li>React</li>
+                    <li>SASS</li>
+                    <li>Material ui</li>
+                    <li>Redux</li>
+                </ul>
+                <a href="https://samkanda.github.io/Mini-IGN-Clone/" class="project-card__link">www.IGN-Clone.com</a>
+                <a style={{marginTop: "10px"}}href="https://github.com/Samkanda/Mini-IGN-Clone" class="project-card__link">www.Github.com</a>
+
                 </div>
             </Col>
             
@@ -260,14 +285,13 @@ export const Project = styled.div`
             text-decoration: none;
             cursor: pointer;
         }
-    }
     .link-container{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-}
-
     }
+
+    
     .project-body{
         .col{display: flex} 
         display: flex; 
@@ -279,7 +303,7 @@ export const Project = styled.div`
             height: 21rem;
             @media(max-width: 950px){
             height: auto;
-        })
+        }
         }
         
     }
@@ -325,18 +349,18 @@ export const Project = styled.div`
     align-items: flex-end;
     justify-content: center;
     height: 21rem;
-    @media(max-width: 950px){    
-        width: 100%;
-    }
-    @media(max-width: 600px){    
-        padding: 0;
-    }
+        @media(max-width: 950px){    
+            width: 100%;
+        }
+        @media(max-width: 600px){    
+            padding: 0;
+        }
     }
     img{
         width: 22rem;
         min-height: 16rem;
         @media(max-width: 430px){width: 20rem;
-    min-height: 16rem;}
+        min-height: 16rem;}
     }
 `;
 export default ProjectSection;
