@@ -17,7 +17,7 @@ const Footer = () => {
             </ContactContainer>
             <FooterItems>
             <div className="footer__item">
-                &copy; 2021 Navpreet Kanda. All Rights Reserved.
+                &copy; 2023 Navpreet Kanda. All Rights Reserved.
             </div>
             <div className="footer__item">
                 <div className="footer__contact">Email: <a href="mailto:navpreetkanda1@hotmail.ca" className="footer__link">navpreetkanda1@hotmail.ca</a></div>
@@ -30,7 +30,7 @@ const Footer = () => {
 
 export const FooterContainer = styled.footer`
     min-height: 25rem;
-    background-color: #7510F7;
+    background-color: #2b2b2b;
     display: flex;
     justify-content: center;
     color: white;
@@ -84,12 +84,18 @@ export const FooterItems = styled.div`
     font-size: 21px;
     text-align: center;
     text-decoration: unset;
+    a{
+    color: #36D8C5;
+    }
     @media(max-width: 800px) {
         margin-top: 310px;
     }
     @media(max-width: 600px) {
         margin-top: 312px;
         font-size: 16px;
+    }
+    a:hover{
+        color:white; 
     }
 `
 export default Footer
