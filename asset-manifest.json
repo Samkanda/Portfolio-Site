@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Site/static/css/main.d882c024.chunk.css",
-    "main.js": "/Portfolio-Site/static/js/main.5238d499.chunk.js",
-    "main.js.map": "/Portfolio-Site/static/js/main.5238d499.chunk.js.map",
+    "main.js": "/Portfolio-Site/static/js/main.85c80c4d.chunk.js",
+    "main.js.map": "/Portfolio-Site/static/js/main.85c80c4d.chunk.js.map",
     "runtime-main.js": "/Portfolio-Site/static/js/runtime-main.d35a2f3a.js",
     "runtime-main.js.map": "/Portfolio-Site/static/js/runtime-main.d35a2f3a.js.map",
     "static/css/2.af34670d.chunk.css": "/Portfolio-Site/static/css/2.af34670d.chunk.css",
@@ -14,22 +14,19 @@
     "static/js/2.a9a00b35.chunk.js.LICENSE.txt": "/Portfolio-Site/static/js/2.a9a00b35.chunk.js.LICENSE.txt",
     "static/media/Capture.3f9f3d46.PNG": "/Portfolio-Site/static/media/Capture.3f9f3d46.PNG",
     "static/media/IGN.b5c89ce2.PNG": "/Portfolio-Site/static/media/IGN.b5c89ce2.PNG",
-    "static/media/avatar_3.0317ff18.svg": "/Portfolio-Site/static/media/avatar_3.0317ff18.svg",
     "static/media/book.5840c82a.svg": "/Portfolio-Site/static/media/book.5840c82a.svg",
-    "static/media/computer.a3cfd987.svg": "/Portfolio-Site/static/media/computer.a3cfd987.svg",
     "static/media/logo.a2ab9484.svg": "/Portfolio-Site/static/media/logo.a2ab9484.svg",
     "static/media/pencil.3081b992.svg": "/Portfolio-Site/static/media/pencil.3081b992.svg",
     "static/media/playline.4e44381b.png": "/Portfolio-Site/static/media/playline.4e44381b.png",
     "static/media/project_11.cadf549e.png": "/Portfolio-Site/static/media/project_11.cadf549e.png",
-    "static/media/project_2.ef424433.PNG": "/Portfolio-Site/static/media/project_2.ef424433.PNG",
-    "static/media/project_4.6a5b6d2f.PNG": "/Portfolio-Site/static/media/project_4.6a5b6d2f.PNG",
-    "static/media/webpage.e4332878.svg": "/Portfolio-Site/static/media/webpage.e4332878.svg"
+    "static/media/webpage.e4332878.svg": "/Portfolio-Site/static/media/webpage.e4332878.svg",
+    "static/media/wedding.b7b770ab.png": "/Portfolio-Site/static/media/wedding.b7b770ab.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d35a2f3a.js",
     "static/css/2.af34670d.chunk.css",
     "static/js/2.a9a00b35.chunk.js",
     "static/css/main.d882c024.chunk.css",
-    "static/js/main.5238d499.chunk.js"
+    "static/js/main.85c80c4d.chunk.js"
   ]
 }
